@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: hemasivakishore/frontend-3tier-nodejs:v1
+        image: hemasivakishore/backend-3tier-nodejs:v1
         imagePullPolicy: Always
         env:
         - name: MONGO_CONN_STR
